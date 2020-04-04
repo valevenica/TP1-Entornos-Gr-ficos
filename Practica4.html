@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 4</title>
+        <style type="text/css">
+        TABLE {text-align: center;}
+        TEXTAREA {vertical-align: top}
+        BODY {padding: 20px;}
+        </style>
+    </head>
+
+<body>
+<header align="center">
+    <a  href="https://www.frro.utn.edu.ar/" alt="vinculo_pagina_facu">
+        <img src="simbolo0.png"> 
+    </a>
+</header>
+
+<section>
+
+<hr>
+
+    <h1 align="center">Año 2020</h1>
+
+    <table width="300" border="1" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+            <td colspan="2">
+                <div align="center"> 
+                    <b>
+                    Exámenes
+                    </b>
+                </div>
+            </td>        
+        </tr>
+
+            <tr>
+            <td rowspan="2">Fecha: 
+                <script type="text/javascript">
+                //<![CDATA[
+                var  today = new Date();
+                var m = today.getMonth() + 1;
+                var mes = (m < 10) ? '0' + m : m;
+                var year = today.getFullYear();
+                document.write(today.getDate(),'/' +mes,'/'+ year);
+                //]]> 
+                </script>  </td>
+            <td>Aprobados</td>
+            </tr>
+            <tr>
+            <td>24/30</td>
+            </tr>
+    </table>
+    <br>
+
+    <ol>
+        <li><a href="https://www.frro.utn.edu.ar/">Enunciado del examen</a></li>
+        <li><a href="https://www.frro.utn.edu.ar/" target="_blank">Resolución</a></li>
+    </ol>
+
+    <label>Puede realizar consultas completando el siguiente formulario:</label> <br> <br>
+
+    <form id="formulario" action="mailto:x@x.com" method="post" enctype=text/plain >
+
+
+    <label><strong>Email:  &nbsp;   &nbsp;&nbsp;&nbsp;   </strong> </label> <input type="email"> <br> <br>
+    <label><strong>Consulta: </strong> </label> <textarea type="text" ></textarea> <br> <br>
+
+    <button type="submit" name="boton1" id="boton1" style="background-color: cadetblue;"><strong>Enviar</strong></button> &nbsp;
+    <button type="reset" name="boton2" id="boton1" style="background-color: crimson;"><strong>Borrar</strong></button>
+
+    </form>
+
+    <h2>Enunciado del examen</h2>
+    <p>
+        <b>
+            Ejercicio 1:
+        </b>
+        Escribir el código HTML completo necesario para visualizar la salida en el navegador 
+        con los siguientes puntos:debe aparecer una imagen, un titulo y un archivo de imagen o video.
+    </p>
+    <p>
+        <b>
+            Ejercicio 2:
+        </b>
+        Poner una linea de separacion a la pagina anterior
+    </p>
+
+</section>
+<footer>
+    <label>Para más información, dirigirse a <a href="mailto:contacto@xx.com">contacto@xx.com</a></label>
+
+</footer>
+
+</body>
+
+</html>
